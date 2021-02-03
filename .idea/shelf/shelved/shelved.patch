@@ -1,0 +1,192 @@
+Index: trycloudautomation/debug.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[0131/142924.493:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)\r\n[0131/150842.619:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)\r\n[0131/151224.797:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/trycloudautomation/debug.log b/trycloudautomation/debug.log
+--- a/trycloudautomation/debug.log	(revision d3361d8d6cac3ddc0b3084e5570c46d8e25dd4cc)
++++ b/trycloudautomation/debug.log	(date 1612205094477)
+@@ -1,3 +1,5 @@
+ [0131/142924.493:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+ [0131/150842.619:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+ [0131/151224.797:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
++[0201/113644.276:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
++[0201/134454.475:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Index: trycloudautomation/src/test/java/com/trycloud/test/base/Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.trycloud.test.base;\r\n\r\nimport com.trycloud.utilites.WebDriverFactory;\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.testng.Assert;\r\nimport org.testng.annotations.BeforeMethod;\r\nimport org.testng.annotations.Test;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.Arrays;\r\nimport java.util.concurrent.TimeUnit;\r\n\r\npublic class Login {\r\n    WebDriver driver;\r\n\r\n    //Test case #1 - verify user login successfully\r\n    // 1.Navigate to login page http://qa.trycloud.net/index.php/login?clear=1\r\n\r\n\r\n    // 2.Enter valid username\r\n    // 3.Enter valid password\r\n    // 4.Click login button\r\n    // 5.Verify the URL is chawed to homepage’s url\r\n    // (Put this test case in testBase class with an annotation so it runs for all the test case)\r\n\r\n\r\n    @BeforeMethod\r\n    public void setupMethod(){\r\n        //open browser\r\n        driver = WebDriverFactory.getDriver(\"Chrome\");\r\n\r\n        driver.get(\"http://qa.trycloud.net/index.php/login?clear=1\");\r\n\r\n        //maximize\r\n        driver.manage().window().maximize();\r\n\r\n        //implicit wait\r\n        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);\r\n\r\n    }\r\n    @Test\r\n    public void test_login(){\r\n\r\n       ArrayList<String> userName= new ArrayList<String>(Arrays.asList(\"User9\",\"User39\",\r\n                                                                     \"User69\",\"User99\"));\r\n\r\n       String password = \"Userpass123\";\r\n\r\n       for( String each : userName){\r\n\r\n           driver.findElement(By.name(\"user\")).sendKeys(each);\r\n           driver.findElement(By.name(\"password\")).sendKeys(password);\r\n\r\n            //to click login button\r\n           driver.findElement(By.id(\"submit-form\")).click();\r\n\r\n\r\n         //  Thread.sleep(2000);\r\n\r\n            String expectedURL =\"http://qa.trycloud.net/index.php/apps/files/?dir=/&fileid=8133\";\r\n            String actualURL = driver.getCurrentUrl();\r\n\r\n           driver.findElement(By.id(\"expandDisplayName\")).click();\r\n            driver.findElement(By.id(\"logout\")).click();\r\n\r\n\r\n           Assert.assertEquals(actualURL,expectedURL);\r\n\r\n\r\n\r\n       }\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/trycloudautomation/src/test/java/com/trycloud/test/base/Login.java b/trycloudautomation/src/test/java/com/trycloud/test/base/Login.java
+--- a/trycloudautomation/src/test/java/com/trycloud/test/base/Login.java	(revision d3361d8d6cac3ddc0b3084e5570c46d8e25dd4cc)
++++ b/trycloudautomation/src/test/java/com/trycloud/test/base/Login.java	(date 1612205369190)
+@@ -3,12 +3,9 @@
+ import com.trycloud.utilites.WebDriverFactory;
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.WebDriver;
+-import org.testng.Assert;
+ import org.testng.annotations.BeforeMethod;
+ import org.testng.annotations.Test;
+ 
+-import java.util.ArrayList;
+-import java.util.Arrays;
+ import java.util.concurrent.TimeUnit;
+ 
+ public class Login {
+@@ -42,34 +39,32 @@
+     @Test
+     public void test_login(){
+ 
+-       ArrayList<String> userName= new ArrayList<String>(Arrays.asList("User9","User39",
+-                                                                     "User69","User99"));
+-
++      String userName = "User9";
+        String password = "Userpass123";
+ 
+-       for( String each : userName){
+-
+-           driver.findElement(By.name("user")).sendKeys(each);
+-           driver.findElement(By.name("password")).sendKeys(password);
++       driver.findElement(By.name("user")).sendKeys(userName);
++       driver.findElement(By.name("password")).sendKeys(password);
+ 
+             //to click login button
+-           driver.findElement(By.id("submit-form")).click();
++          driver.findElement(By.id("submit-form")).click();
+ 
+-
+-         //  Thread.sleep(2000);
++           //  Thread.sleep(2000);
+ 
+             String expectedURL ="http://qa.trycloud.net/index.php/apps/files/?dir=/&fileid=8133";
+             String actualURL = driver.getCurrentUrl();
+ 
+-           driver.findElement(By.id("expandDisplayName")).click();
+-            driver.findElement(By.id("logout")).click();
+-
+-
+-           Assert.assertEquals(actualURL,expectedURL);
++          // Assert.assertEquals(actualURL,expectedURL);
++        if(expectedURL.equals(actualURL)){
++            System.out.println("URL has PASSED !!1 For user name "+ userName);
++        }else{
++            System.out.println("URL has FAILED !!! For user name "+userName);
++            System.out.println("actualURL = "+ actualURL);
++            System.out.println("expectedURL = "+ expectedURL);
++        }
+ 
+ 
+-
+-       }
++    }
++}
+ 
+ 
+ 
+@@ -77,15 +72,7 @@
+ 
+ 
+ 
+-    }
+ 
+ 
+ 
+ 
+-
+-
+-
+-
+-
+-
+-}
+Index: trycloudautomation/src/test/java/com/trycloud/test/base/Login2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/trycloudautomation/src/test/java/com/trycloud/test/base/Login2.java b/trycloudautomation/src/test/java/com/trycloud/test/base/Login2.java
+new file mode 100644
+--- /dev/null	(date 1612196658990)
++++ b/trycloudautomation/src/test/java/com/trycloud/test/base/Login2.java	(date 1612196658990)
+@@ -0,0 +1,76 @@
++package com.trycloud.test.base;
++
++import com.trycloud.utilites.WebDriverFactory;
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.testng.Assert;
++import org.testng.annotations.BeforeMethod;
++import org.testng.annotations.Test;
++
++import java.util.ArrayList;
++import java.util.Arrays;
++import java.util.concurrent.TimeUnit;
++
++public class Login2 {
++
++    WebDriver driver;
++
++    //Test case #1 - verify user login successfully
++    // 1.Navigate to login page http://qa.trycloud.net/index.php/login?clear=1
++
++
++    // 2.Enter valid username
++    // 3.Enter valid password
++    // 4.Click login button
++    // 5.Verify the URL is chawed to homepage’s url
++    // (Put this test case in testBase class with an annotation so it runs for all the test case)
++
++
++    @BeforeMethod
++    public void setupMethod() {
++        //open browser
++        driver = WebDriverFactory.getDriver("Chrome");
++
++        driver.get("http://qa.trycloud.net/index.php/login?clear=1");
++
++        //maximize
++        driver.manage().window().maximize();
++
++        //implicit wait
++        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
++
++    }
++
++    @Test
++    public void test_login() {
++
++        ArrayList<String> userName = new ArrayList<String>(Arrays.asList("User9", "User39",
++                "User69", "User99"));
++
++        String password = "Userpass123";
++
++        for (String each : userName) {
++
++            driver.findElement(By.name("user")).sendKeys(each);
++            driver.findElement(By.name("password")).sendKeys(password);
++
++            //to click login button
++            driver.findElement(By.id("submit-form")).click();
++
++
++            //  Thread.sleep(2000);
++
++            String expectedURL = "http://qa.trycloud.net/index.php/apps/files/?dir=/&fileid=8133";
++            String actualURL = driver.getCurrentUrl();
++
++            driver.findElement(By.id("expandDisplayName")).click();
++            driver.findElement(By.id("logout")).click();
++
++
++            Assert.assertEquals(actualURL, expectedURL);
++
++
++        }
++
++    }
++}
+\ No newline at end of file
