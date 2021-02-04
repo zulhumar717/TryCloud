@@ -9,5 +9,8 @@
         <module name="TryCloud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TryCloud" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
