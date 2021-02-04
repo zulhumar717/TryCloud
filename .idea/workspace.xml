@@ -4,12 +4,89 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca7b7cb-8638-4599-889c-a3929fd8d45e" name="Default Changelist" comment="updated Login test">
-      <change afterPath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/test/base/Login2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trycloudautomation/trycloudautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trycloudautomation/trycloudautomation.iml" afterDir="false" />
+    <list default="true" id="6ae0fbec-3273-4d95-82c0-b886295c0ee0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TryCloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_1_2021_2_03_PM_[Default_Changelist]/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_1_2021_2_03_PM_[Default_Changelist]/Login2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_1_2021_2_03_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_1_2021_2_03_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/shelved.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/shelved/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uncommitted_changes_before_Checkout_at_2_1_2021_2_03_PM_[Default_Changelist].patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/main/java/com/trycloud/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/test/java/com/trycloud/test/base/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/test/java/com/trycloud/test/base/Login2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/test/java/com/trycloud/test/base/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/test/java/com/trycloud/utilites/BrowserUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/test/java/com/trycloud/utilites/ConfigurationReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/src/test/java/com/trycloud/utilites/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/utilities/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/classes/com/trycloud/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/test/base/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/test/base/Login2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/test/base/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/utilites/BrowserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/utilites/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/target/test-classes/com/trycloud/utilites/WebDriverFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trycloudautomation/trycloudautomation.iml" beforeDir="false" />
     </list>
-    <list id="88e71e22-1f94-400f-ab7b-d3ba6a7a678d" name="shelved" comment="" />
-    <list id="2fe3acfa-8bbf-4111-b8f7-3c218723ecd6" name="Uncommitted changes before Checkout at 2/1/2021 2:03 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,16 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Login" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1nks3i2ogyBWPwS2GLuNbXHmmeG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -40,37 +108,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.Login">
-    <configuration name="Login" type="TestNG" nameIsGenerated="true">
-      <module name="trycloudautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trycloud.test.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.trycloud.test.base" />
-      <option name="MAIN_CLASS_NAME" value="com.trycloud.test.base.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.trycloud.utilities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.test_login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trycloudautomation" />
+    <configuration name="TestBase.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TryCloud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trycloud.test.base.*" />
+          <option name="PATTERN" value="com.trycloud.tests.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.trycloud.test.base" />
-      <option name="MAIN_CLASS_NAME" value="com.trycloud.test.base.Login" />
-      <option name="METHOD_NAME" value="test_login" />
+      <option name="PACKAGE_NAME" value="com.trycloud.tests.base" />
+      <option name="MAIN_CLASS_NAME" value="com.trycloud.tests.base.TestBase" />
+      <option name="METHOD_NAME" value="testName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -80,61 +148,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login.test_login" />
-        <item itemvalue="TestNG.Login.test_login" />
+        <item itemvalue="TestNG.TestBase.testName" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="true" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bca7b7cb-8638-4599-889c-a3929fd8d45e" name="Default Changelist" comment="" />
-      <changelist id="2fe3acfa-8bbf-4111-b8f7-3c218723ecd6" name="Uncommitted changes before Checkout at 2/1/2021 2:03 PM [Default Changelist]" comment="" />
-      <changelist id="88e71e22-1f94-400f-ab7b-d3ba6a7a678d" name="shelved" comment="" />
-      <created>1611945226454</created>
+      <changelist id="6ae0fbec-3273-4d95-82c0-b886295c0ee0" name="Default Changelist" comment="" />
+      <created>1612453060755</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611945226454</updated>
+      <updated>1612453060755</updated>
+      <workItem from="1612453062531" duration="1692000" />
     </task>
-    <task id="LOCAL-00001" summary="Added Login test">
-      <created>1612124566874</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1612124566874</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/Login" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="Added Login test" />
-    <MESSAGE value="updated Login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Login test" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
