@@ -30,6 +30,7 @@ public abstract class TestBase {
         driver.get(ConfigurationReader.getProperty("url"));
 
         WebElement usernameLogin = driver.findElement(By.id("user"));
+
         usernameLogin.sendKeys("User39");
 
         WebElement passwordLogin = driver.findElement(By.id("password"));

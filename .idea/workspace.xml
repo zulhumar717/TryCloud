@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ae0fbec-3273-4d95-82c0-b886295c0ee0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/base/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="6ae0fbec-3273-4d95-82c0-b886295c0ee0" name="Default Changelist" comment="testbase update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +111,14 @@
       <updated>1612453060755</updated>
       <workItem from="1612453062531" duration="1692000" />
     </task>
+    <task id="LOCAL-00001" summary="testbase update">
+      <created>1612456858561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612456858561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testbase update" />
+    <option name="LAST_COMMIT_MESSAGE" value="testbase update" />
   </component>
 </project>
