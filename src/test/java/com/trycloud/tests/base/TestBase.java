@@ -38,8 +38,6 @@ public abstract class TestBase {
 
         WebElement loginButton = driver.findElement(By.xpath("//input[@id='submit']"));
         loginButton.click();
-
-
     }
 
     @AfterMethod
