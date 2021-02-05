@@ -22,10 +22,13 @@ public abstract class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+
+      
     }
 
-    @Test
+    @BeforeMethod
     public void verify_user_login() {
+
 
         driver.get(ConfigurationReader.getProperty("url"));
 
@@ -44,7 +47,7 @@ public abstract class TestBase {
 
     @AfterMethod
     public void tearDown(){
-      //  driver.close();
+      driver.close();
     }
 
 }
