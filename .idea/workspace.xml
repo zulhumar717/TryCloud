@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ae0fbec-3273-4d95-82c0-b886295c0ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/AccessFiles3.java" afterDir="false" />
+
+    <list default="true" id="6ae0fbec-3273-4d95-82c0-b886295c0ee0" name="Default Changelist" comment="testbase update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/UserStory2.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trycloud/tests/base/TestBase.java" afterDir="false" />
     </list>
@@ -24,7 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+
+        <entry key="$PROJECT_DIR$" value="UserStory#1" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +40,11 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="zulhumar717" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="TryCloud" />
   </component>
   <component name="ProjectId" id="1o1YXDbYVOkiuIHBZe8j0YhL4P4" />
   <component name="ProjectLevelVcsManager">
@@ -56,7 +65,9 @@
       <recent name="com.trycloud.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AccessFiles3">
+
+  <component name="RunManager" selected="TestNG.UserStory2.tc1_verify_mainmodules_acess">
+
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,10 +150,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserStory2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TryCloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trycloud.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trycloud.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.trycloud.tests.UserStory2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStory2.tc1_verify_mainmodules_acess (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TryCloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trycloud.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trycloud.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.trycloud.tests.UserStory2" />
+      <option name="METHOD_NAME" value="tc1_verify_mainmodules_acess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStory2.tc1_verify_mainmodules_acess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TryCloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trycloud.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trycloud.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.trycloud.tests.UserStory2" />
+      <option name="METHOD_NAME" value="tc1_verify_mainmodules_acess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AccessFiles3" />
-        <item itemvalue="TestNG.AccessFiles3.testVerifyFilesModule" />
+
+        <item itemvalue="TestNG.UserStory2.tc1_verify_mainmodules_acess" />
+        <item itemvalue="TestNG.UserStory2.tc1_verify_mainmodules_acess (1)" />
+        <item itemvalue="TestNG.UserStory2" />
+
         <item itemvalue="TestNG.TestBase.verify_user_login" />
         <item itemvalue="TestNG.TestBase.testName" />
       </list>
@@ -165,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612456858561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testbase update">
+      <created>1612457209837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612457209837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +256,9 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Akilah3" />
+
+                        <option value="UserStory#1" />
+
                       </list>
                     </value>
                   </entry>

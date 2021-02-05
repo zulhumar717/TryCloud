@@ -22,6 +22,14 @@ public abstract class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+
+      
+    }
+
+    @BeforeMethod
+    public void verify_user_login() {
+
+
         driver.get(ConfigurationReader.getProperty("url"));
 
         WebElement usernameLogin = driver.findElement(By.id("user"));
