@@ -24,7 +24,7 @@ public abstract class TestBase {
 
     }
 
-    @Test
+    @BeforeMethod
     public void verify_user_login() {
 
         driver.get(ConfigurationReader.getProperty("url"));
