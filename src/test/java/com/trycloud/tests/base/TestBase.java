@@ -34,12 +34,12 @@ public abstract class TestBase {
 
         WebElement usernameLogin = driver.findElement(By.id("user"));
 
-        usernameLogin.sendKeys("User39");
+        usernameLogin.sendKeys("User9");
 
         WebElement passwordLogin = driver.findElement(By.id("password"));
         passwordLogin.sendKeys("Userpass123");
 
-        WebElement loginButton = driver.findElement(By.xpath("//input[@id='submit']"));
+        WebElement loginButton = driver.findElement(By.xpath("//input[@value='Log in']"));
         loginButton.click();
 
 
